@@ -12,6 +12,7 @@ bowie:
   name: David Bowie
   email: daveb@example.com
   password_digest: <%= User.digest('stardust') %>
+  admin: true
 
 archer:
   name: Sterling Archer
