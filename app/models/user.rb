@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
   validates :name, presence: true, length: { maximum: 50 }
                     
   has_secure_password
-  validates :password, length: { minimum: 6 }
+  validates :password, length: { minimum: 6 }, allow_blank: true
 
   # Compute a test password value for the database fixture(s). 
   # This is a class method because we won't always have a
