@@ -46,3 +46,6 @@ input{height:auto !important}
 
 /* miscellaneous */
 .debug_dump{clear:both;float:left;width:100%;margin-top:45px;@include box_sizing}
+
+/* Users index */
+.users{list-style:none;margin:0;li{overflow:auto;padding:10px 0;border-bottom:1px solid $gray-lighter}}
