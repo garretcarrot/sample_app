@@ -1,0 +1,15 @@
+one:
+  follower: bowie
+  followed: lana
+
+two:
+  follower: bowie
+  followed: mallory
+
+three:
+  follower: lana
+  followed: bowie
+
+four:
+  follower: archer
+  followed: bowie
