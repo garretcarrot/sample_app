@@ -8,10 +8,15 @@ class StaticPagesController < ApplicationController
 
   def help
   end
-  
+
   def about
   end
-  
+
   def contact
+  end
+
+  def server_ip
+    location = request.env
+    render plain: "This server is hosted at #{location}"
   end
 end
